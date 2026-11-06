@@ -67,11 +67,12 @@ CHECKIN_CHALLENGE_DELAY = 2.7
 # 积分兑换计划 (#11)：消耗 points 积分兑换 days 天会员。
 # 通过环境变量 EXCHANGE_PLAN 选择，默认 plan500（500 分兑换 100 天），
 # 设为 off 关闭自动兑换。
-EXCHANGE_PLANS = {
-    "plan100": {"points": 100, "days": 10},
-    "plan200": {"points": 200, "days": 30},
-    "plan500": {"points": 500, "days": 100},
-}
+EXCHANGE_PLANS =off
+#{
+#    "plan100": {"points": 100, "days": 10},
+#   "plan200": {"points": 200, "days": 30},
+#   "plan500": {"points": 500, "days": 100},
+#}
 
 EXCHANGE_DISABLED_VALUES = ("", "off", "no", "none", "false", "0", "disabled")
 
