@@ -73,7 +73,7 @@ EXCHANGE_PLANS = {
     "plan500": {"points": 500, "days": 100},
 }
 
-EXCHANGE_DISABLED_VALUES = off ("", "off", "no", "none", "false", "0", "disabled")
+EXCHANGE_DISABLED_VALUES = ("", "off", "no", "none", "false", "0", "disabled")
 CURRENT_SESSION_COOKIES = ('gld:sess', 'gld:sess.sig')
 LEGACY_SESSION_COOKIES = ('koa:sess', 'koa:sess.sig')
 
